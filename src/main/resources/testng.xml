@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="这是我自己的测试套件">
+
+    <test name="这些是测试模块">
+
+        <classes>
+            <class name="com.tester.extend.demo.TestMethodsDemo">
+                   <methods>
+                       <include name="test1"/>
+                       <include name="test2"/>
+                       <include name="test3"/>
+                       <include name="logDemo"/>
+                   </methods>
+            </class>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>  //红色？
+    </listeners>
+
+</suite>
